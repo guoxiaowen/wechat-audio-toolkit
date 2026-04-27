@@ -1,0 +1,15 @@
+{
+  "name": "wechat-audio-toolkit",
+  "description": "Self-hosted marketplace for the wechat-audio-toolkit plugin (Chinese audio → WeChat article / readable transcript via DashScope paraformer-v2).",
+  "owner": {
+    "name": "Caven Guo",
+    "email": "caven.gxw@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "wechat-audio-toolkit",
+      "source": ".",
+      "description": "中文音频 → 公众号 Markdown 文章 / 可读文字稿。基于阿里云 DashScope paraformer-v2（语音识别 + 说话人分离）。"
+    }
+  ]
+}

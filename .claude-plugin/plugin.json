@@ -1,0 +1,23 @@
+{
+  "name": "wechat-audio-toolkit",
+  "version": "0.1.0",
+  "description": "中文音频 → 公众号文章 / 可读文字稿。两个 skill：audio-to-wechat-md（出公众号成品文章 + 5 个标题），audio-to-transcript（出原样文字稿）。底层用阿里云 DashScope paraformer-v2 做语音识别 + 说话人分离，OSS 做临时文件中转。Audio → WeChat article / readable transcript via Aliyun DashScope paraformer-v2 ASR with diarization.",
+  "author": {
+    "name": "Caven Guo",
+    "email": "caven.gxw@gmail.com",
+    "url": "https://github.com/caven-gxw"
+  },
+  "homepage": "https://github.com/caven-gxw/wechat-audio-toolkit",
+  "repository": "https://github.com/caven-gxw/wechat-audio-toolkit",
+  "license": "MIT",
+  "keywords": [
+    "audio",
+    "transcription",
+    "wechat",
+    "公众号",
+    "中文",
+    "paraformer",
+    "dashscope",
+    "diarization"
+  ]
+}

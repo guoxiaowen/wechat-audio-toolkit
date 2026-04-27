@@ -101,7 +101,7 @@ chmod 600 ~/.claude/.env
 **或者手动安装**（适合改源码的开发者）：
 
 ```bash
-git clone https://github.com/caven-gxw/wechat-audio-toolkit ~/.claude/plugins/wechat-audio-toolkit
+git clone https://github.com/guoxiaowen/wechat-audio-toolkit ~/.claude/plugins/wechat-audio-toolkit
 cd ~/.claude/plugins/wechat-audio-toolkit
 uv venv && uv sync
 ```
@@ -241,7 +241,7 @@ A: paraformer-v2 中英文都支持。对于纯英文长访谈，效果可能不
 
 ## 反馈 / Issues
 
-GitHub: https://github.com/caven-gxw/wechat-audio-toolkit/issues
+GitHub: https://github.com/guoxiaowen/wechat-audio-toolkit/issues
 
 公众号：郭晓文（搜索关注，问题/反馈也可以从公众号过来）
 
